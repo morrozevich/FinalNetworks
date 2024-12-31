@@ -1,0 +1,13 @@
+# Core Python modules
+socket
+sys
+threading
+time
+struct
+
+# For cross-platform support (Windows, Linux/Unix)
+msvcrt; platform_system == "Windows"
+termios; platform_system != "Windows"
+tty; platform_system != "Windows"
+
+
